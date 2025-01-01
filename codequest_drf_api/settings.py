@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bz0m82-2s^b2(1%cvxz0!s8fg7ktw+h6ro#laf-ba%+sbqs3h8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-danilleh22-codequestdrf-8uckjuqm9j3.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'codequest_drf_api',
 ]
 
 MIDDLEWARE = [
